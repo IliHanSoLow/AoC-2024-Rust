@@ -1,4 +1,4 @@
-mod day_m1;
-pub fn day_m1(){
-    day_m1::main();
+mod day_1;
+pub fn day_1(){
+    day_1::main();
 }
