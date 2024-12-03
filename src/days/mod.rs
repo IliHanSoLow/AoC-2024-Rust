@@ -1,5 +1,7 @@
 mod day_1;
 mod day_2;
+mod day_3;
+
 pub fn day_1(){
     day_1::main();
 }
