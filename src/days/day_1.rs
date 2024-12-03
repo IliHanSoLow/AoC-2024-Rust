@@ -7,7 +7,7 @@ pub fn main(){
     let mut solution_1: i32 = 0;
 
     for line in read_to_string(file_path).unwrap().lines(){
-        let parts = line.split("   ").collect::<Vec<&str>>();
+        let parts = line.split_whitespace().collect::<Vec<&str>>();
         left.push(parts[0].to_string().parse::<i32>().unwrap());
         right.push(parts[1].to_string().parse::<i32>().unwrap());
     }

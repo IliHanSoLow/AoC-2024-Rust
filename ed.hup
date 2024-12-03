@@ -1,0 +1,4 @@
+use std::fs::*;
+fn main()
+{
+	let solution_1 = 0;
